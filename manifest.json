@@ -3,7 +3,6 @@
   "description": "Calculates the average of current estimates",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions": ["activeTab", "scripting"],
   "content_scripts": [
     {
       "matches": ["https://*.scrumpoker-online.org/en/room/*"],
